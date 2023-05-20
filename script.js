@@ -88,7 +88,7 @@ for (let i = 0; i < dataAraay.length; i++) {
   cardElement.appendChild(userAdress);
 
   cardElement.addEventListener("click", function () {
-    button.classList.add("active");
+    cardElement.classList.add("active");
   });
   document.getElementById("card-container").appendChild(cardElement);
 }
